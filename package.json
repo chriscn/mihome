@@ -4,7 +4,9 @@
   "description": "A simple JS wrapper for the MiHome API.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint --ignore-path .gitignore ."
+    "test": "eslint --ignore-path .gitignore .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
   },
   "dependencies": {
     "request": "^2.88.0",
-    "request-promise": "^4.2.2"
-  }
+    "request-promise": "^4.2.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
