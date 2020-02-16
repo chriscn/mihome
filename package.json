@@ -1,6 +1,6 @@
 {
   "name": "mihome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple JS wrapper for the MiHome API.",
   "main": "index.js",
   "scripts": {
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/chriscn/mihome#readme",
   "devDependencies": {
-    "eslint": "^5.12.1"
+    "eslint": "^5.16.0"
   },
   "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.2"
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   }
 }
